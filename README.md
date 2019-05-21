@@ -8,7 +8,7 @@ HeroSquad is an application that helps you recruit new heroes to different squad
 
 ### Set it up 
 Step 1: 
-Go to github and search for my username :Shyla27 and clone the this  link:https://github.com/Shyla27/Hero-Squad.git.
+Go to github and search for my username :Shyla27 and clone the repo using  this  link:https://github.com/Shyla27/Hero-Squad.git.
  Step 2:
  Open the project with Intellij or any text editor in my case i was using Visual Studio.
 Step 3:
