@@ -1,0 +1,29 @@
+<div class="jumbotron">
+  <h2 class="display-3">Add hero to $squad.getName()</h2>
+  <br>
+  <form action="/heroes" method="post">
+    <input id="squadId" name="squadId" type="hidden" value="$squad.getId()">
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input id="age" name="age" type="number" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="power">Powers</label>
+      <input id="power" name="power" type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="weakness">Weaknesses</label>
+      <input id="weakness" name="weakness" type="text" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-danger">Add Hero</button>
+  </form>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HeroTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-01-02T07:44:59" hostname="humunguS" time="0.009">
+  <properties/>
+  <testcase name="getId_heroesInstantiatesWithAnID_1" classname="HeroTest" time="0.004"/>
+  <testcase name="clear_emptiesAllHeroesFromArrayList_0" classname="HeroTest" time="0.0"/>
+  <testcase name="all_returnsAllInstancesOfHero_true" classname="HeroTest" time="0.0"/>
+  <testcase name="find_returnsHeroWithSameId_secondHero" classname="HeroTest" time="0.0"/>
+  <testcase name="getPower_instantiatesWithPower_String" classname="HeroTest" time="0.0"/>
+  <testcase name="Hero_instantiatesCorrectly_true" classname="HeroTest" time="0.0"/>
+  <testcase name="getWeakness_instantiatesWithWeakness_String" classname="HeroTest" time="0.001"/>
+  <testcase name="getName_instantiatesWithName_String" classname="HeroTest" time="0.0"/>
+  <testcase name="getAge_instantiatesWithAge_int" classname="HeroTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

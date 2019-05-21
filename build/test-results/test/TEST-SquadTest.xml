@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SquadTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2018-01-02T07:44:59" hostname="humunguS" time="0.016">
+  <properties/>
+  <testcase name="getHeroes_initiallyReturnsEmptyList_ArrayList" classname="SquadTest" time="0.002"/>
+  <testcase name="getName_squadInstantiatesWithName_String" classname="SquadTest" time="0.0"/>
+  <testcase name="heroAlreadyExists_checksIfHeroExistsinSquads_true" classname="SquadTest" time="0.0"/>
+  <testcase name="addHero_addsHeroToList_true" classname="SquadTest" time="0.001"/>
+  <testcase name="getSize_squadInstantiatesWithSize_int" classname="SquadTest" time="0.0"/>
+  <testcase name="all_returnsAllInstancesOfSquad_true" classname="SquadTest" time="0.001"/>
+  <testcase name="getId_squadsInstantiatesWithAnId_1" classname="SquadTest" time="0.002"/>
+  <testcase name="find_returnsSquadWithSameId_secondSquad" classname="SquadTest" time="0.0"/>
+  <testcase name="getCause_squadInstantiatesWithCause_String" classname="SquadTest" time="0.0"/>
+  <testcase name="squad_instantiatesCorrectly_true" classname="SquadTest" time="0.001"/>
+  <testcase name="clear_emptiesAllSquadsFromList_0" classname="SquadTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
