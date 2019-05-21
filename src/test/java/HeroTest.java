@@ -43,7 +43,6 @@ public class HeroTest {
 
   @Test
   public void clear_emptiesAllHeroesFromArrayList_0() {
-    Hero testHero = new Hero("Superman",20,"Fly","Kryptonite");
     Hero.clear();
     assertEquals(Hero.all().size(), 0);
   }
@@ -57,8 +56,7 @@ public class HeroTest {
 
   @Test
   public void find_returnsHeroWithSameId_secondHero() {
-    Hero firstHero = new Hero("Superman",20,"Fly","Kryptonite");
-    Hero secondHero = new Hero("Ironman",50,"Fly","Drinking");
+    Hero secondHero = new Hero("Ironman", 50, "Fly", "Drinking");
     assertEquals(Hero.find(secondHero.getId()), secondHero);
   }
 

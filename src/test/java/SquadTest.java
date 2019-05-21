@@ -37,7 +37,6 @@ public class SquadTest {
 
   @Test
   public void clear_emptiesAllSquadsFromList_0() {
-    Squad testSquad = new Squad("Feminists",5,"Equality of sexes");
     Squad.clear();
     assertEquals(Squad.all().size(), 0);
   }
@@ -52,8 +51,7 @@ public class SquadTest {
   @Test
   public void find_returnsSquadWithSameId_secondSquad() {
     Squad.clear();
-    Squad firstSquad = new Squad("Feminists",5,"Equality of sexes");
-    Squad secondSquad = new Squad("Superheros",4,"Multiple");
+    Squad secondSquad = new Squad("Superheros", 4, "Multiple");
     assertEquals(Squad.find(secondSquad.getId()), secondSquad);
   }
 

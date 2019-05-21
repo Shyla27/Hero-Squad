@@ -21,7 +21,7 @@ public class App {
          port = 4567;
      }
 
-    Port(port);
+    setPort(port);
 
     get("/", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
@@ -58,7 +58,7 @@ public class App {
       String name = request.queryParams("name");
       int size = Integer.parseInt(request.queryParams("size"));
       String cause = request.queryParams("cause");
-      Squad newSquad= new Squad(name,size,cause);
+      new Squad(name, size, cause);
       model.put("template", "templates/squad-success.vtl");
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
@@ -114,8 +114,5 @@ public class App {
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
-  }
-
-  private static void Port(Integer port) {
   }
 }
