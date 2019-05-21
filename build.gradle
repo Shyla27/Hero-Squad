@@ -1,8 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-archivesBaseName = "friend-letter"
+archivesBaseName = "Hero"
 version = '1.0'
+applicationName = "Hero"
 mainClassName = "App"
 
 repositories {
@@ -14,3 +15,5 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.+'
       compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
 }
+defaultTasks = ['clean'] 
+task stage(dependsOn: ['clean' , 'installApp'] )
