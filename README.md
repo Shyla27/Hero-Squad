@@ -7,20 +7,21 @@ Hero Squad App allows you to to recruit well-balanced team of superheroes.Each h
 HeroSquad is an application that helps you recruit new heroes to different squads.you can create a squade of your own or use other squads. 
 have fun 
 
+### Set it up 
+ Go to github and search for my username :Shyla27 and clone the this  link:https://github.com/Shyla27/Hero-Squad.git.
+ Open the project with Intellij or any text editor in my case i was using Visual Studio.
+On your terminal type gradle run in order to run the app from your local machine.
+ Open localhost:4567. in your browser 
+
  ### Bugs 
 no bugs experienced but if you experience any sort of issues don't hesitate to contact me via sheilabernicew@gmail.com
  ### Tech used 
 Java 
 Git 
-IntelliJ IDEA 
+Bootstrap and css for styling 
+Spark  
 Heroku in deployment 
 ### LICENSE
  MIT License
 
 Copyright (c) [2019][Shyla BERNICE]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
