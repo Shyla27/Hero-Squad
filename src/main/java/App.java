@@ -21,7 +21,7 @@ public class App {
          port = 4567;
      }
 
-    setPort(port);
+    Port(port);
 
     get("/", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
@@ -114,5 +114,8 @@ public class App {
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
+  }
+
+  private static void Port(Integer port) {
   }
 }
