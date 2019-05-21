@@ -8,10 +8,10 @@ HeroSquad is an application that helps you recruit new heroes to different squad
 have fun 
 
 ### Set it up 
- Go to github and search for my username :Shyla27 and clone the this  link:https://github.com/Shyla27/Hero-Squad.git.
- Open the project with Intellij or any text editor in my case i was using Visual Studio.
-On your terminal type gradle run in order to run the app from your local machine.
- Open localhost:4567. in your browser 
+Step 1: Go to github and search for my username :Shyla27 and clone the this  link:https://github.com/Shyla27/Hero-Squad.git.
+ Step 2:Open the project with Intellij or any text editor in my case i was using Visual Studio.
+Step 3:On your terminal type gradle run in order to run the app from your local machine.
+ Step 4:Open localhost:4567. in your browser 
 
  ### Bugs 
 no bugs experienced but if you experience any sort of issues don't hesitate to contact me via sheilabernicew@gmail.com

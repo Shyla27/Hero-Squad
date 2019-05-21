@@ -2,7 +2,7 @@
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
+  border-bottom: .05rem solid #beb5b5;
   margin-bottom: 2rem;
 }
 
@@ -19,7 +19,8 @@
 }
 .jumbotron {
   text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
+  border-bottom: .05rem;
+  color: darkgrey;
   margin-bottom: 2rem;
 }
 
