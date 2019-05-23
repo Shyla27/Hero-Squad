@@ -11,7 +11,8 @@
   margin-bottom: 0;
   line-height: 3rem;
   text-align: center;
-  color: maroon;
+  color:blueviolet;
+  font-size: 30px;
 }
 .squad {
   color: blueviolet;
@@ -24,6 +25,10 @@
   margin-bottom: 2rem;
 }
 
+h1 {
+  color:blueviolet;
+text-align: center;
+}
 .jumbotron .btn {
   padding: .75rem 1.5rem;
   font-size: 1.5rem;
