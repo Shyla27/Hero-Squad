@@ -14,7 +14,7 @@ Go to github and search for my username :Shyla27 and clone the repo using  this 
 Step 3:
 On your terminal type gradle run in order to run the app from your local machine.
  Step 4:
-Open localhost:4567. in your browser; 
+Open localhost:4567  in your browser; 
 ### How it works 
 Assuming you have the app in your computer already,lets begin 
 So you'll need to create a squad or use the squads in the game already
